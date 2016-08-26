@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* General css created by ESOLZ TECHNOLOGY */
+.pic-pad{
+	min-height: 410px;
+}
+.slide-cover .text-scroll {
+    height: 300px;
+}
+.slide-cover .pic-pad{
+	
+	position: relative;
+	z-index: 9999;
+}
+
+.design-cont{
+	text-align:inherit;
+}
+.design-glry{
+	 margin-bottom: 21px;
+	 text-align:inherit;	 
+}
+.design-box{
+	  margin: 0 15px 0 0;
+}
+.design-cont h2{
+	display: inherit;
+	text-align: center;
+}
+ul.tab-list li a{
+	font-size: 19px;
+}
+ul.tab-list li {
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 24px;
+}
+ul.tab-list {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: 14px 0 10px 23.5%;
+}
+.banner-l{
+	position: static;
+	padding: 0;
+}
+.banner-r{
+	float: right;
+	width: 48%;
+}
+.pic-box{
+	height: 150px;
+	overflow: hidden;
+}
+.pic-box img {
+    height: 100%;
+/*    width: auto;*/
+}
+.slide-cover .banner-l-pic{
+	height: auto;
+}
+.banner-l-pic h2.home-ttl{
+	font-size: 60px;
+}
+.banner-l-pic.sympage h1 {
+    font-size: 55px;
+    font-family: 'gando_btregular';
+    margin-bottom: 15px;
+}
+.banner-l-pic.sympage {
+    padding-top: 70px;
+}
+@media (max-width: 990px){
+	.pic-box {
+	    margin-top: 20px;
+	    width: 48.5%;
+	}
+	ul.tab-list {
+	    width: 100%;
+	    margin-left: 0;
+	    border-bottom: 1px #ddd solid;
+	    margin-bottom: 20px;
+	}
+	.slide-cover .banner-l-pic {
+	    padding: 0;
+	    max-height: 300px;
+	    overflow-y: auto;
+	}
+	.aaaaab .acf-map {
+	    height: 300px;
+	}
+	/*.design-cont {
+	    padding-top: 20px;
+	    max-height: 340px;
+	    overflow-y: auto;
+	}*/
+	.banner-l {
+	    padding: 20px 0;
+	    max-height: 260px;
+	    overflow-y: auto;
+	}
+}
+@media (max-width: 767px){
+	.slide-cover .banner-l-pic,.banner-l{
+		height: auto !important;
+		max-height: none;
+		overflow: hidden;
+	}
+}
+/* Responsive css created by ESOLZ TECHNOLOGY */
+

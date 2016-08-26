@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* General css created by ESOLZ TECHNOLOGY */
+.pic-pad{
+	min-height: 410px;
+}
+.slide-cover .text-scroll {
+    height: 300px;
+}
+.slide-cover .pic-pad{
+	height: 300px;
+	position: relative;
+	z-index: 9999;
+}
+
+
+
+
+
+
+/* Responsive css created by ESOLZ TECHNOLOGY */
+
