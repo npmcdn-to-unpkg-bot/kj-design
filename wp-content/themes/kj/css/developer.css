@@ -57,6 +57,15 @@ ul.tab-list {
     height: 100%;
 /*    width: auto;*/
 }
+
+#smycken .pic-box{
+	/* height: 150px; */
+	overflow: hidden;
+}
+#smycken .pic-box img {
+    height: 100%;
+/*    width: auto;*/
+}
 .slide-cover .banner-l-pic{
 	height: auto;
 }
@@ -76,6 +85,12 @@ ul.tab-list {
 	    margin-top: 20px;
 	    width: 48.5%;
 	}
+
+		#smycken .pic-box {
+	    margin-top: 20px;
+	    width: 46.5%;
+	    margin: 5px;
+	}
 	ul.tab-list {
 	    width: 100%;
 	    margin-left: 0;
@@ -84,8 +99,8 @@ ul.tab-list {
 	}
 	.slide-cover .banner-l-pic {
 	    padding: 0;
-	    max-height: 300px;
-	    overflow-y: auto;
+	    /* max-height: 300px; */
+	    /* overflow-y: auto; */
 	}
 	.aaaaab .acf-map {
 	    height: 300px;
@@ -97,8 +112,8 @@ ul.tab-list {
 	}*/
 	.banner-l {
 	    padding: 20px 0;
-	    max-height: 260px;
-	    overflow-y: auto;
+	    /* max-height: 260px; */
+	    /* overflow-y: auto; */
 	}
 }
 @media (max-width: 767px){

@@ -257,7 +257,8 @@ $(document).ready(function(){
    <!--        banner part 3 starts-->
         <div class="banner-item slide-cover" id="tab-cont">
             <div class="banner-l">
-                <div class="container">
+                <div class="container" id="smycken">
+                <nav class="tab-wrap">
                 	<ul class="tab-list">
                         	 <?php
                 		$key_var= new WP_Query( array('post_type' => 'smycken','order' => 'DESC') ); 
@@ -266,11 +267,12 @@ $(document).ready(function(){
                   <li <?php if($i==1){?> class="tab-active" <?php } ?> ><a href="#tab-<?php echo $i; ?>"><?php echo get_the_title(get_the_ID()); ?></a></li>
                            <?php $i++; endwhile; wp_reset_query(); ?>
                         </ul>
+                        </nav>
                     <div class="banner-l-pic sympage">
                         <?php //query_posts('page_id=30');  while (have_posts()) : the_post();  the_content();  endwhile; ?>
                     </div>
-                </div>
-            </div>
+
+
             <div class="banner-r banVar clearfix">
             	
             <?php	$key_var= new WP_Query( array('post_type' => 'smycken','order' => 'DESC') ); 
@@ -281,9 +283,11 @@ $(document).ready(function(){
                     <div class="pic-pad clearfix" id="tab-<?php echo $i; ?>">
                     	  <?php	$galdata1 = get_post_meta(get_the_ID(), 'inpost_gallery_data', true); $img = 0;
                     	  foreach($galdata1 as $imgurl){ if($img==9) break; ?>
-                        <div class="pic-box">
-                              <a href="<?php echo $imgurl['imgurl']; ?>" class="fancybox" rel="gallery"><img alt="" src="<?php echo $imgurl['imgurl']; ?>"></a>
+                            <a href="<?php echo $imgurl['imgurl']; ?>" class="fancybox" rel="gallery">
+                        <div class="pic-box" style="background-image:url('<?php echo $imgurl['imgurl']; ?>')">
+                             
                         </div>
+                         </a>
                        <?php $img++; } ?>
 			
                     </div>
@@ -292,6 +296,8 @@ $(document).ready(function(){
                
                
             </div>
+                            </div>
+                                        </div>
         </div>
     <!--    slide 4    -->
          <div class="banner-item slide-cover">
