@@ -539,6 +539,12 @@ ul.tab-list li.tab-active a, ul.tab-list li a:hover {
 }
 
 
+nav.tab-wrap {
+    background: #f1e7cc;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
 .pic-pad {
     display: none;
 }
@@ -548,5 +554,48 @@ ul.tab-list li.tab-active a, ul.tab-list li a:hover {
 .banVar {
     background: rgba(255,255,255,0.9);
     padding: 10px 10px 25px;
+}
+
+#smycken .banner-r{
+    width: 100%;
+}
+
+#smycken .pic-box img{
+    height: auto;
+}
+
+#smycken .banner-l-pic{
+    width: 70%;
+}
+
+#smycken{
+    /* background-color: #f1e7cc; */
+}
+
+#smycken {
+/* width: 100%; */
+float: none;
+}
+
+
+#smycken .pic-box {
+    height: 260px;
+    overflow: hidden;
+    margin: 10px;
+    width: 31%;
+    background-position: 70%;
+    background-size: cover;
+}
+
+
+h1.logo {
+
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    z-index: 9;
+    padding: 0;
+    top: 25px;
+
 }
 
