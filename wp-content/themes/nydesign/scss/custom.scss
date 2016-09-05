@@ -427,6 +427,7 @@ h3{
     bottom: 0px;
     left: 0px;
     right: 0px;
+    transition: 1s ease all;
 }
 
 
@@ -972,16 +973,73 @@ text-align: left;
     letter-spacing: 3px;
 		}
 
+		.col-md-12{
+			overflow: hidden;
+		}
+
 		.full_h_img{
 			height: 550px;
 			position:relative;
+			    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+			transition: all 0.5s ease;
 			background-size:cover;
+			overflow:hidden;
+
+			&:hover{
+
+			 -moz-transform: scale(1.02,1.02);
+    -webkit-transform: scale(1.02,1.02);
+    transform: scale(1.02,1.02); 
+
+
+    .overlay{
+    	opacity: 0;
+    }
+				
+
+				img{
+					zoom:2;
+				}
+				cursor: pointer;
+			}
 		}
 
 		.regular_h_img{
 			height: 265px;
-			    margin-bottom: 20px;
-			    background-size:cover;
+			transition: 1s ease all;
+			position:relative;
+			    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+			transition: all 0.5s ease;
+			background-size:cover;
+			overflow:hidden;
+
+			    			&:hover{
+
+			 -moz-transform: scale(1.02,1.02);
+    -webkit-transform: scale(1.02,1.02);
+    transform: scale(1.02,1.02); 
+
+
+    .overlay{
+    	opacity: 0;
+    }
+				
+
+				img{
+					zoom:2;
+				}
+				cursor: pointer;
+			}
 		}
 
 		img{

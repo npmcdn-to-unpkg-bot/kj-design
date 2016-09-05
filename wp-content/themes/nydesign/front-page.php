@@ -47,7 +47,9 @@
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
-					<div class="full_h_img" style="background-image:url('<?php bloginfo('url')?>/wp-content/uploads/2016/09/uring1.jpg')"></div>
+					<div class="full_h_img" style="background-image:url('<?php bloginfo('url')?>/wp-content/uploads/2016/09/uring1.jpg')">
+						<div class="overlay"></div>
+					</div>
 					<h3>Ring i rödguld med vitguldsinfattade diamanter</h3>
 					</div>
 				</div>
@@ -55,7 +57,7 @@
 			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-12">
-					<div class="full_h_img" style="background-image:url('<?php bloginfo('url')?>/wp-content/uploads/2016/09/2092.jpg')"></div>
+					<div class="full_h_img" style="background-image:url('<?php bloginfo('url')?>/wp-content/uploads/2016/09/2092.jpg')"><div class="overlay"></div></div>
 					<h3></h3>
 					</div>
 				</div>
@@ -85,13 +87,13 @@
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12 regular_h_img">
-						<div class="regular_h_img" style="background-image:url('<?php bloginfo('url')?>//wp-content/uploads/2016/06/bild3.jpg')"></div>
+						<div class="regular_h_img" style="background-image:url('<?php bloginfo('url')?>//wp-content/uploads/2016/06/bild3.jpg')"><div class="overlay"></div></div>
 					</div>
 					<div class="col-md-12">
 					<h3>Ring i platina med naturfärgad, oval diamant och två vita diamanter.</h3>
 					</div>
 					<div class="col-md-12">
-						<div class="regular_h_img" style="background-image:url('<?php bloginfo('url')?>/wp-content/uploads/2016/06/bild1.jpg')"></div>
+						<div class="regular_h_img" style="background-image:url('<?php bloginfo('url')?>/wp-content/uploads/2016/06/bild1.jpg')"><div class="overlay"></div></div>
 					</div>
 					<div class="col-md-12">
 					<h3>Trippelring med diamanter i vitt och blått.</h3>
