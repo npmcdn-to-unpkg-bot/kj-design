@@ -137,6 +137,7 @@ var mySwiper = new Swiper('.swiper-container', {
     speed: 400,
     loop: true,
     autoplay: 3000,
+    effect: 'fade',
     spaceBetween: 100
 });  
 
