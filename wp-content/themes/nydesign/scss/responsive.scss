@@ -1,0 +1,285 @@
+@media(max-width:1300px){
+
+	$headerHeight: 3rem;
+
+	.boxout{
+		display: none;
+	}
+
+	header{
+
+
+		.top-header{
+
+			height: $headerHeight;
+
+
+
+			margin-top: 80px;
+
+
+
+			.branding{
+				    left: 0px;
+				    right: 0px;
+				    margin:0px;
+				    margin-left: 0px!important;
+				    top: -80px;
+				    padding-bottom:20px;
+				    background-color: #b12727;
+
+			}
+
+
+			nav{
+
+
+				height: $headerHeight;
+
+				li{
+					height: $headerHeight;
+				}
+
+				a{
+					line-height: $headerHeight;
+				}
+			}
+
+
+
+
+
+
+			#right-nav{
+			padding-right: 0px;
+			width: initial;
+		}
+
+		#left-nav{
+			padding-left: 270px;
+			width: initial;
+
+
+			ul#menu-leftmeny{
+			float: left;
+		}
+		}
+
+			}
+
+
+			#local{
+				top: -80px;
+				right: 20px;
+				position:absolute;
+			}
+
+
+	}
+
+	#info-section{
+		#instafeed{
+			.insta{
+
+				flex-basis: calc(100%/4);
+
+			}
+		}
+	}
+
+}
+
+
+@media(max-width:995px){
+
+
+	header{
+
+		.top-header{
+
+			height: 4rem;
+
+
+			.menu-toggle{
+				display: block;
+				color: white;
+				cursor: pointer;
+			}
+
+			nav{
+
+				width: 100%;
+    background-color: #b12727;
+				ul{
+					width: 100%;
+					float: none;
+					height: auto;
+					li{
+						float: none;
+    background-color: #b12727;
+						width: 100%;
+						display: block;
+					}
+				}
+			}
+			#left-nav{
+				height: auto;
+				width: 100%;
+    background-color: #b12727;
+				display: none;
+				opacity: 0;
+				float: none;
+				padding-left:0px;
+
+				ul#menu-leftmeny{
+					float: none;
+				}
+			}
+
+			#right-nav{
+				height: auto;
+				float: none;
+				width: 100%;
+    background-color: #b12727;
+    padding-left:0px;
+				display: none;
+				opacity: 0;
+
+								ul#menu-rightmeny{
+					float: none;
+				}
+			}
+		}
+	}
+
+
+	.banner{
+		.welcomebox{
+			width: 70%;
+		}
+	}
+
+
+}
+
+
+@media(max-width:765px){
+
+	.page-content{
+
+
+		.tjanster{
+
+
+
+			.tjanst-item{
+				height: 400px;
+			}
+
+		}
+	}
+
+
+		#info-section{
+		#instafeed{
+			.insta{
+
+				flex-basis: calc(100%/3);
+
+			}
+		}
+	}
+
+
+	.overlay-title {
+
+
+		h1{
+
+			font-size: 10vw;
+
+
+
+		}
+
+	}
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+	.banner{
+		.welcomebox{
+			width: 100%;
+		}
+	}
+
+
+
+	#welcome-section{
+		height: 600px;
+		background-position: 10% 20%;
+	}
+
+
+
+	.page-content{
+
+
+
+
+
+		.tjanster{
+
+
+
+			.tjanst-item{
+				height: 300px;
+			}
+
+		}
+	}
+	
+}
+
+@media(max-width:500px){
+
+	.worker{
+		
+	}
+
+
+	#intro p{
+		padding:10px 10px;
+	}
+
+
+
+}
+
+
+@media(max-width:420px){
+
+		#info-section{
+		#instafeed{
+			.insta{
+
+				flex-basis: calc(100%/2);
+
+			}
+		}
+	}
+
+	.welcomebox{
+
+		h1{
+			font-size: 30px;
+		}
+	}
+
+}

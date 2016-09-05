@@ -1,0 +1,11 @@
+{
+  "name": "YeoPress-Template",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~1.9.0",
+    "requirejs": "~2.1.5",
+    "masonry": "^4.1.0",
+    "video.js": "^5.10.5",
+    "imagesloaded": "^4.1.0"
+  }
+}
